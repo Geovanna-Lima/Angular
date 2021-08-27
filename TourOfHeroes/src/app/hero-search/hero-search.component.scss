@@ -4,7 +4,6 @@ label {
     font-size: 1.2rem;
     margin-top: 1rem;
     margin-bottom: .5rem;
-  
 }
 
 input {
@@ -21,6 +20,12 @@ input:focus {
   
 li {
     list-style-type: none;
+}
+
+#search-component{
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
 }
 
 .search-result li a {
@@ -44,4 +49,10 @@ li {
 ul.search-result {
     margin-top: 0;
     padding-left: 0;
+}
+
+.search {
+    justify-content: center;
+    align-items: center;
+    display: grid;
 }
